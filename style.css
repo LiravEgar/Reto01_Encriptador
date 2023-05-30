@@ -1,0 +1,128 @@
+header{
+    background: url(img/bg.jpg);
+    padding: 20px 0;
+    margin: auto;
+}
+.barra{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+} 
+
+.logo{
+    position:relative;
+    margin: 10px 15px auto;
+}
+.titulo1{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+}
+
+.principal{
+    background-color: #e7e7c6;
+    display: block;
+    }
+.cont, .button{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.caja{
+    padding: 30px 30px ;
+    text-align:justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#encrypt{
+    margin-top: 10px;
+    width: 25%;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #3c5ece;
+    border-radius: 10px;
+    transition: 500ms all, ;
+    transition: 500ms ;
+    cursor: pointer;
+    margin: 0.5em;
+}
+#encrypt:hover{
+    transform: scale(108%);
+}
+
+
+#decrypt{
+    margin-top: 10px;
+    width: 25%;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #3c5ece;
+    border-radius: 10px;
+    transition: 500ms all, ;
+    transition: 500ms ;
+    cursor: pointer;
+    margin: 0.5em;
+}
+#decrypt:hover{
+    transform: scale(108%);
+}
+
+#reset{
+    margin-top: 10px;
+    width: 25%;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #19bbc7;
+    border-radius: 10px;
+    transition: 500ms all, ;
+    transition: 500ms ;
+    cursor: pointer;
+    margin: 0.5em;
+}
+#reset:hover{
+    transform: scale(108%);
+}
+
+/* #msj-final{
+    border-style: hidden;
+}
+*/
+
+#copyText{
+    margin-top: 10px;
+    width: 25%;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #19bbc7;
+    border-radius: 10px;
+    transition: 500ms all, ;
+    transition: 500ms ;
+    cursor: pointer;
+    margin: 0.5em; 
+}
+#copyText:hover{
+    transform: scale(108%);
+}
+footer{
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+
+}

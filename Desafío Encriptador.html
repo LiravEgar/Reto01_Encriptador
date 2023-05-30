@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        <title>Desafío Encriptador</title>
+
+    </head>
+
+    <body>
+        <header>            
+            <div class="barra">
+                <img class="logo" src="img/Frame 6.png" alt="Logo  de Alura">
+                <h3 class="titulo1">Desafío 01 Alura | Encriptador</h3>    
+            </div>
+        </header>
+
+        <main class="principal">
+            
+                <div class="cont">
+                    <p class="caja">Inserte en la siguiente caja el texto que desea procesar *Sólo Minúsculas*</p>
+                    <label for="msj-simple"></label>
+                    <textarea cols="80" rows="10" id="msj-simple"
+                    placeholder="Escriba aquí su mensaje: "></textarea>    
+                </div>
+                <div class="button">
+                    <input type="submit" value="Encriptar" id="encrypt" onclick="enc()">
+                    <input type="submit" value="Desencriptar" id="decrypt" onclick="dec()">
+                    <input type="submit" value="Reset"  id="reset" onclick="reset()">
+                </div>    
+                <div class="cont">            
+                    <label for="msj-final"></label>
+                    <textarea readonly cols="80" rows="10" id="msj-final"
+                    placeholder="Ningún mensaje aún :c"></textarea>    
+                </div>
+                
+                <div class="button">
+                    <input type="submit" value="Copiar Texto" id="copyText" onclick="cpytxt()">
+                </div>
+            
+            
+        </main>
+               
+    </body>
+
+    <footer>
+        <p class="copyright">&copy Copyright Juan Carlos Vega 2023</p>
+    </footer>
+
+</html>
